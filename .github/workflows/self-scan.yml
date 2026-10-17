@@ -1,0 +1,15 @@
+# Runs this repo's own reusable workflow against this repo, so a change to
+# secret-scan.yml gets exercised on its PR before the v1 tag moves.
+name: self-scan
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  secret-scan:
+    uses: ./.github/workflows/secret-scan.yml
