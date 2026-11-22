@@ -40,3 +40,12 @@ git push --force origin refs/tags/v1
 That step is deliberately manual. Claude's push guard refuses force pushes, so
 callers only pick up a change once Josh decides it's ready. A breaking change
 gets a new `v2` tag instead, and callers move over one PR at a time.
+
+## Copyright
+
+Copyright (c) 2026 Josh (github.com/bearnz). All rights reserved.
+
+No licence is granted. You are welcome to read this code and to fork it on
+GitHub; you may not use, copy, modify or redistribute it without permission.
+See [NOTICE](NOTICE) for the terms, and open an issue if you would like to use
+any of it.
