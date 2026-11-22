@@ -49,3 +49,6 @@ No licence is granted. You are welcome to read this code and to fork it on
 GitHub; you may not use, copy, modify or redistribute it without permission.
 See [NOTICE](NOTICE) for the terms, and open an issue if you would like to use
 any of it.
+
+These workflows are shared across my own repositories, so the restriction above
+is deliberate rather than an oversight. Ask and the answer is likely to be yes.
